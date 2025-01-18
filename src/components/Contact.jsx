@@ -18,7 +18,7 @@ const Contact = () => {
       message: "",
     });
   };
-  const [submit, setSubmit] = useState(true);
+  const [submit, setSubmit] = useState(false);
   const handleChange = (e) => {
     const { name, value } = e.target;
 
